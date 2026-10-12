@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ink Merge — Delete your data</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.55;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 28px; }
+  h2 { font-size: 18px; margin-top: 32px; }
+  p, li { font-size: 15px; }
+  code { background: #f3f3f3; padding: 2px 5px; border-radius: 4px; }
+  a { color: #0a66c2; }
+  .meta { color: #666; font-size: 13px; margin-bottom: 24px; }
+  .box {
+    background: #fff8e1;
+    border: 1px solid #f0d070;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 20px 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>Ink Merge — Delete your data</h1>
+<p class="meta">Published by LBSync Ltd. Last updated 12 October 2026.</p>
+
+<p>
+This page explains exactly how to delete the data Ink Merge keeps about
+your game. The app is published by LBSync Ltd and is available on
+Google Play and the App Store.
+</p>
+
+<h2>How to request deletion</h2>
+<div class="box">
+  <p><strong>Email <a href="mailto:info@lbsync.com">info@lbsync.com</a> with:</strong></p>
+  <ol>
+    <li>Your in-game display name (shown next to your coin balance,
+        default is "Painter &lt;number&gt;")</li>
+    <li>The platform you play on (iOS App Store or Google Play)</li>
+    <li>A short note saying "please delete my data"</li>
+  </ol>
+  <p>We respond within <strong>30 days</strong>. Most requests are
+  completed within 7 days.</p>
+</div>
+
+<h2>What gets deleted</h2>
+<p>When you request deletion, we remove the following from our servers:</p>
+<ul>
+  <li>Your anonymous Firebase ID and all data stored under it</li>
+  <li>Your display name on tournament and race leaderboards</li>
+  <li>Your cloud-backed game progress (level, coins, shards, tools,
+      gallery pieces, mission state)</li>
+  <li>Your tournament and speed race scores (past and current week)</li>
+</ul>
+
+<h2>What is kept (and why)</h2>
+<ul>
+  <li>
+    <strong>Aggregate / anonymised crash reports.</strong> Firebase
+    crash telemetry is already anonymised and cannot be traced back to
+    you after deletion. We keep it for product diagnostics.
+  </li>
+  <li>
+    <strong>Nothing else.</strong> We do not keep a copy of your
+    personal data after deletion.
+  </li>
+</ul>
+
+<h2>Retention of deleted data</h2>
+<p>
+Deleted records are purged from our Firestore database within 7 days
+of your request. Backups retain the record for an additional 30 days
+after which it is permanently removed; backups are not restored into
+the live database.
+</p>
+
+<h2>If you deleted the app</h2>
+<p>
+Uninstalling the app does NOT automatically delete your cloud data.
+Your Firebase ID stays on our servers so your progress can be
+restored if you reinstall. If you want your data removed, email us
+using the steps above.
+</p>
+
+<h2>Contact</h2>
+<p>
+Questions:
+<a href="mailto:info@lbsync.com">info@lbsync.com</a>.
+Our full privacy policy is at
+<a href="./">lbsyncltd-vybe.github.io/ink-privacy</a>.
+</p>
+
+</body>
+</html>
